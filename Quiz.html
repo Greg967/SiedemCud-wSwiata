@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siedem cudów</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div id="start"></div> 
+    <div id="header-container">
+    <header>
+        <div class="siedem">7</div> 
+        CUDÓW
+        <br>
+        SWIATA
+    </header>
+    <nav>
+        <a class="menu" href="index.html"><div class="a">GŁÓWNA</div></a>
+        <a class="menu" href="Film.html"><div class="a">FILM</div></a>
+        <a class="menu" href="Galeria.html"><div class="a">GALERIA</div></a>
+    </nav>
+    </div>
+    <main class="quiz">
+
+        <form action="#" method="POST">
+            
+            <div class="container_a"> 
+            <div class="question f">
+                <label for="name" class="q">Twoje imię:</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br>
+            </div>
+            
+            <div class="question f">
+                <label for="surname" class="q">Twoje nazwisko:</label>
+                <br>
+                <input type="text" id="surname" name="surname" required>
+                <br>
+            </div>
+            </div>
+            <div class="container">
+            <div class="container_b">
+            <div class="question">
+                <br>
+                <label class="q">1. Który z poniższych cudów jest jedynym, który przetrwał do dziś?</label>
+                <br>
+                <input type="radio" id="giza" name="question1" value="Wielka Piramida w Gizie">
+                <label for="giza">Wielka Piramida w Gizie</label><br>
+                <input type="radio" id="hanging-gardens" name="question1" value="Wiszące Ogrody Babilonu">
+                <label for="hanging-gardens">Wiszące Ogrody Babilonu</label><br>
+                <input type="radio" id="colossus" name="question1" value="Kolos Rodyjski">
+                <label for="colossus">Kolos Rodyjski</label><br>
+                <input type="radio" id="statue-zeus" name="question1" value="Posąg Zeusa w Olimpii">
+                <label for="statue-zeus">Posąg Zeusa w Olimpii</label><br>
+                <br>
+            </div>
+    
+            
+            <div class="question">
+                <br>
+                <label class="q">2. Gdzie znajdowały się Wiszące Ogrody Babilonu?</label>
+                <br>
+                <input type="radio" id="babylon" name="question2" value="Babilon (dzisiejszy Irak)">
+                <label for="babylon">Babilon (dzisiejszy Irak)</label><br>
+                <input type="radio" id="greece" name="question2" value="Grecja">
+                <label for="greece">Grecja</label><br>
+                <input type="radio" id="egypt" name="question2" value="Egipt">
+                <label for="egypt">Egipt</label><br>
+                <input type="radio" id="persia" name="question2" value="Persja (dzisiejszy Iran)">
+                <label for="persia">Persja (dzisiejszy Iran)</label><br>
+                <br>
+            </div>
+            </div>
+            <div class="container_b">
+            <div class="question">
+                <br>
+                <label class="q">3. Posąg Zeusa w Olimpii został stworzony przez <br>jakiego słynnego rzeźbiarza greckiego?</label>
+                <br>
+                <input type="radio" id="phidias" name="question3" value="Fidiasz">
+                <label for="phidias">Fidiasz</label><br>
+                <input type="radio" id="alexander" name="question3" value="Aleksander Wielki">
+                <label for="alexander">Aleksander Wielki</label><br>
+                <input type="radio" id="hermes" name="question3" value="Hermes">
+                <label for="hermes">Hermes</label><br>
+                <input type="radio" id="homer" name="question3" value="Homer">
+                <label for="homer">Homer</label><br>
+                <br>
+            </div>
+    
+            
+            <div class="question">
+                <br>
+                <label class="q">4. Gdzie znajduje się Wielka Piramida w Gizie?</label>
+                <br>
+                <input type="radio" id="egypt" name="question4" value="Egipt">
+                <label for="egypt">Egipt</label><br>
+                <input type="radio" id="iraq" name="question4" value="Irak">
+                <label for="iraq">Irak</label><br>
+                <input type="radio" id="turkey" name="question4" value="Turcja">
+                <label for="turkey">Turcja</label><br>
+                <input type="radio" id="greece" name="question4" value="Grecja">
+                <label for="greece">Grecja</label><br>
+                <br>
+            </div>
+            </div>
+            <div class="container_b">
+            <div class="question">
+                <br>
+                <label class="q">5. Który cud został zbudowany na cześć<br> greckiego króla i znajdował się na wyspie Rodos?</label>
+                <br>
+                <input type="radio" id="colossus-rhodes" name="question5" value="Kolos Rodyjski">
+                <label for="colossus-rhodes">Kolos Rodyjski</label><br>
+                <input type="radio" id="mausoleum" name="question5" value="Mauzoleum w Halikarnasie">
+                <label for="mausoleum">Mauzoleum w Halikarnasie</label><br>
+                <input type="radio" id="lighthouse" name="question5" value="Latarnia Morska w Aleksandrii">
+                <label for="lighthouse">Latarnia Morska w Aleksandrii</label><br>
+                <input type="radio" id="zeus" name="question5" value="Posąg Zeusa w Olimpii">
+                <label for="zeus">Posąg Zeusa w Olimpii</label><br>
+                <br>
+            </div>
+    
+            
+            <div class="question">
+                <br>
+                <label for="favorite-wonder" class="q">6. Który z 7 cudów jest Twoim osobistym ulubionym?</label>
+                <br>
+                <br>
+                <select id="favorite-wonder" name="favorite-wonder">
+                    <option value="Wielka Piramida w Gizie">Wielka Piramida w Gizie</option>
+                    <option value="Wiszące Ogrody Babilonu">Wiszące Ogrody Babilonu</option>
+                    <option value="Posąg Zeusa w Olimpii">Posąg Zeusa w Olimpii</option>
+                    <option value="Świątynia Artemidy w Efezie">Świątynia Artemidy w Efezie</option>
+                    <option value="Mauzoleum w Halikarnasie">Mauzoleum w Halikarnasie</option>
+                    <option value="Kolos Rodyjski">Kolos Rodyjski</option>
+                    <option value="Latarnia Morska w Aleksandrii">Latarnia Morska w Aleksandrii</option>
+                </select>
+                <br>
+            </div>
+            </div>
+        </div>
+            <div class="przycisk">
+                <br>
+                <button type="submit" >Wyślij</button>
+                <button type="reset" >Wyczyść</button>
+                
+            </div>
+            <a href="#start"> <div id="quiz"  class="back">Powrót na początek</div></a>
+        </form>
+
+
+
+    </main>
+    <footer>
+        GRZEGORZ KIEWRA 2TC
+    </footer>
+    
+</body>
+</html>

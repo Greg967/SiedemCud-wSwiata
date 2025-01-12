@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siedem cudów</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div id="start"></div>
+    <div id="header-container">
+    <header>
+        <div class="siedem">7</div> 
+        CUDÓW
+        <br>
+        SWIATA
+    </header>
+    <nav>
+        <a class="menu" href="Quiz.html"><div class="a">QUIZ</div></a>
+        <a class="menu" href="index.html"><div class="a">GŁÓWNA</div></a>
+        <a class="menu" href="Film.html"><div class="a">FILM</div></a>
+    </nav>
+    </div>
+    <main>
+    
+        <img src="multimedia/piramida.jpg" class="glowny" alt="gluwny">
+
+        <div class="img_container">
+            <div class="content">
+            <img src="multimedia/piramida.jpg" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/KolosRodyjski.png" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/latarnia.jpg" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/mouzuleum.jpg" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/Statue-of-Zeus-at-Olympia.jpg" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/swiatynia.jpg" class="galeriaa" alt="obraz w galerii">
+            <img src="multimedia/wiszace-ogrody-semiramidy.jpg" class="galeriaa" alt="obraz w galerii">
+        </div>
+
+       </div>
+<script>
+       document.addEventListener("DOMContentLoaded", function() {
+        const galleryImages = document.querySelectorAll('.img_container .galeriaa');
+        const mainImage = document.querySelector('.glowny');
+        
+        
+        galleryImages.forEach(image => {
+            image.addEventListener('click', function() {
+                
+                mainImage.src = this.src;
+                mainImage.alt = this.alt;  
+            });
+        });
+    });
+</script>
+
+    </main>
+    <footer>
+        GRZEGORZ KIEWRA 2TC
+    </footer>
+    
+</body>
+</html>
